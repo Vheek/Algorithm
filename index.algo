@@ -1,0 +1,14 @@
+ALGORITHM length_a_sentence
+VAR
+  sentence: STRING;
+  wordCounter: INTEGER:= 0;
+BEGIN
+  index = 0
+  WHILE sentence [index] is not point DO
+    IF sentence[conditon] is a space THEN
+      INCREMENT wordCounter by 1;
+    END_IF
+  END_WHILE
+  write("length of sentence: + wordCounter");
+  END
+  
